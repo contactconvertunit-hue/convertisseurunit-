@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Calculateur d'Âge – Quel Âge Avez-Vous Exactement ? | ConvertUnité</title>
+<meta name="description" content="Calculez votre âge exact en années, mois, jours, heures et minutes. Trouvez aussi votre prochain anniversaire et votre signe astrologique.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://convertisseur-unite.com/calculateur-age.html">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="alternate" hreflang="fr" href="https://convertisseur-unite.com/calculateur-age.html"><link rel="alternate" hreflang="en" href="https://convertisseur-unite.com/en/age-calculator.html"><meta property="og:title" content="Calculateur d'Âge – Quel Âge Avez-Vous Exactement ? | ConvertUnité"><meta property="og:description" content="Calculez votre âge exact en années, mois, jours, heures et minutes. Trouvez aussi votre prochain anniversaire et votre signe astrologique."><meta property="og:url" content="https://convertisseur-unite.com/calculateur-age.html"><meta property="og:type" content="website"><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculateur d'Âge – Quel Âge Avez-Vous Exactement ? | ConvertUnité","description":"Calculez votre âge exact en années, mois, jours, heures et minutes. Trouvez aussi votre prochain anniversaire et votre signe astrologique.","url":"https://convertisseur-unite.com/calculateur-age.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P92YVSJ768"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-P92YVSJ768");</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5654096550234448" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#070710;--s:#0f0f1e;--s2:#16162a;--s3:#1e1e35;--a:#4fffb0;--a2:#6c63ff;--t:#eeeef5;--t2:#a0a0c0;--bd:rgba(255,255,255,0.06);--r:14px;--f:'Outfit',sans-serif;--m:'JetBrains Mono',monospace}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--f);background:var(--bg);color:var(--t);min-height:100vh}
+.amb{position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(ellipse 60% 50% at 15% 10%,rgba(108,99,255,.13) 0%,transparent 70%),radial-gradient(ellipse 50% 60% at 85% 90%,rgba(79,255,176,.08) 0%,transparent 70%)}
+.gbg{position:fixed;inset:0;pointer-events:none;z-index:0;background-image:linear-gradient(rgba(255,255,255,.015) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.015) 1px,transparent 1px);background-size:60px 60px}
+header{position:sticky;top:0;z-index:100;height:60px;display:flex;align-items:center;justify-content:space-between;padding:0 32px;background:rgba(7,7,16,.85);backdrop-filter:blur(24px);border-bottom:1px solid var(--bd)}
+.logo{font-size:1.1rem;font-weight:800;color:var(--t);text-decoration:none;display:flex;align-items:center;gap:10px}
+.logo-ico{width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,var(--a2),var(--a));display:flex;align-items:center;justify-content:center;font-size:1rem}
+.lang-sw{display:flex;align-items:center;gap:6px}
+.lang-btn{padding:4px 10px;border-radius:20px;border:1px solid var(--bd);background:transparent;color:var(--t2);font-family:var(--f);font-size:.78rem;cursor:pointer;text-decoration:none;transition:all .15s}
+.lang-btn.active{background:rgba(79,255,176,.1);border-color:rgba(79,255,176,.4);color:var(--a)}
+.wrap{position:relative;z-index:10;max-width:780px;margin:0 auto;padding:50px 24px 100px}
+.bc{display:flex;align-items:center;gap:6px;font-size:.8rem;color:var(--t2);margin-bottom:36px;flex-wrap:wrap}
+.bc a{color:var(--t2);text-decoration:none}.bc a:hover{color:var(--a)}.bc-s{opacity:.4}
+h1{font-size:clamp(1.7rem,4vw,2.7rem);font-weight:800;letter-spacing:-.03em;margin-bottom:10px}
+.desc{color:var(--t2);font-size:.95rem;line-height:1.7;margin-bottom:36px;max-width:600px}
+.widget{background:var(--s);border:1px solid var(--bd);border-radius:20px;padding:28px;margin-bottom:24px}
+.wt{font-weight:700;font-size:1rem;margin-bottom:16px}
+.field label{display:block;font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--t2);margin-bottom:8px}
+.field input,.field select{width:100%;padding:14px 16px;background:var(--s2);border:1px solid var(--bd);border-radius:11px;color:var(--t);font-family:var(--f);font-size:1rem;font-weight:500;outline:none;transition:all .2s}
+.field input:focus,.field select:focus{border-color:rgba(79,255,176,.4)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:14px}
+.result-box{padding:20px;background:rgba(79,255,176,.07);border:1px solid rgba(79,255,176,.2);border-radius:14px;text-align:center;margin-top:14px}
+.result-label{font-size:.72rem;color:var(--t2);margin-bottom:8px;text-transform:uppercase;letter-spacing:.08em}
+.result-val{font-family:var(--m);font-size:2rem;font-weight:800;color:var(--a)}
+.result-sub{font-size:.82rem;color:var(--t2);margin-top:6px}
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:14px}
+.stat-box{padding:13px;background:var(--s2);border-radius:10px;text-align:center}
+.stat-label{font-size:.68rem;color:var(--t2);margin-bottom:4px}
+.stat-val{font-family:var(--m);font-weight:700;font-size:1rem}
+.btn{padding:14px 24px;background:linear-gradient(135deg,var(--a2),var(--a));border:none;border-radius:11px;color:#070710;font-family:var(--f);font-weight:700;font-size:.9rem;cursor:pointer;width:100%;margin-top:12px;transition:opacity .2s}
+.btn:hover{opacity:.9}
+.btn-outline{padding:10px 20px;background:transparent;border:1px solid var(--bd);border-radius:11px;color:var(--t2);font-family:var(--f);font-size:.84rem;cursor:pointer;transition:all .15s}
+.btn-outline:hover{border-color:var(--a);color:var(--a)}
+.tabs{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.tab{padding:8px 16px;border-radius:100px;border:1px solid var(--bd);background:transparent;color:var(--t2);font-family:var(--f);font-size:.82rem;cursor:pointer;transition:all .15s}
+.tab.active{background:rgba(79,255,176,.1);border-color:rgba(79,255,176,.4);color:var(--a)}
+h2{font-size:1.05rem;font-weight:700;margin:28px 0 14px}
+.ct{width:100%;border-collapse:collapse;margin-bottom:24px}
+.ct th{font-size:.73rem;text-transform:uppercase;letter-spacing:.08em;color:var(--t2);font-weight:600;padding:10px 14px;border-bottom:1px solid var(--bd);text-align:left}
+.ct td{padding:11px 14px;border-bottom:1px solid var(--bd);font-size:.88rem}
+.ct tr:last-child td{border-bottom:none}
+.ct tr:hover td{background:rgba(79,255,176,.03)}
+.fi{background:var(--s);border:1px solid var(--bd);border-radius:12px;margin-bottom:10px;overflow:hidden}
+.fq{padding:15px 20px;font-weight:600;font-size:.88rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
+.fq:hover{background:var(--s2)}
+.fa{padding:0 20px 15px;color:var(--t2);font-size:.85rem;line-height:1.7;display:none}
+.fi.open .fa{display:block}.fi.open .farr{transform:rotate(180deg)}
+.farr{transition:transform .2s;color:var(--t2)}
+.rg{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin-bottom:40px}
+.rc{display:block;padding:12px 15px;background:var(--s);border:1px solid var(--bd);border-radius:11px;text-decoration:none;color:var(--t);font-size:.83rem;font-weight:500;transition:all .15s}
+.rc:hover{border-color:rgba(79,255,176,.3);color:var(--a)}
+footer{position:relative;z-index:10;border-top:1px solid var(--bd);padding:22px 32px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.8rem;color:var(--t2)}
+footer a{color:var(--t2);text-decoration:none}footer a:hover{color:var(--a)}
+.flinks{display:flex;gap:18px}
+#cb{position:fixed;bottom:0;left:0;right:0;z-index:1000;background:var(--s2);border-top:1px solid var(--bd);padding:14px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.82rem;color:var(--t2);transform:translateY(100%);transition:transform .4s}
+#cb.show{transform:translateY(0)}
+#cb a{color:var(--a);text-decoration:none}
+.cba{padding:7px 18px;background:var(--a);color:#070710;border:none;border-radius:8px;font-family:var(--f);font-weight:700;font-size:.82rem;cursor:pointer}
+.cbr{padding:7px 14px;background:transparent;color:var(--t2);border:1px solid var(--bd);border-radius:8px;font-family:var(--f);font-size:.82rem;cursor:pointer}
+@media(max-width:640px){header{padding:0 16px}.wrap{padding:40px 16px 80px}.grid2{grid-template-columns:1fr}.grid3{grid-template-columns:1fr 1fr}footer{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="amb"></div><div class="gbg"></div>
+<header>
+<a class="logo" href="/"><div class="logo-ico">⚗️</div>ConvertUnité</a>
+<div class="lang-sw"><span class="lang-btn active">🇫🇷 FR</span><a class="lang-btn" href="/en/">🇬🇧 EN</a></div>
+</header>
+<div class="wrap">
+<div class="bc"><a href="/">Accueil</a><span class="bc-s"> › </span><span>📅 Utilitaires</span><span class="bc-s"> › </span><span>Calculateur d'âge</span></div>
+<h1>Calculateur d'Âge</h1>
+<p class="desc">Connaissez votre âge exact en années, mois, jours et même en heures ! Trouvez aussi combien de jours avant votre prochain anniversaire.</p>
+<div style="text-align:center;margin:28px 0"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5654096550234448" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
+<div class="widget">
+  <div class="field"><label>Date de naissance</label><input type="date" id="dob" oninput="calcAge()"></div>
+  <div class="result-box" style="margin-top:16px">
+    <div class="result-label">Votre âge</div>
+    <div class="result-val" id="age-val">—</div>
+    <div class="result-sub" id="age-sub">—</div>
+  </div>
+  <div class="stat-grid">
+    <div class="stat-box"><div class="stat-label">En mois</div><div class="stat-val" id="age-mois">—</div></div>
+    <div class="stat-box"><div class="stat-label">En jours</div><div class="stat-val" id="age-jours">—</div></div>
+    <div class="stat-box"><div class="stat-label">En heures</div><div class="stat-val" id="age-heures">—</div></div>
+    <div class="stat-box"><div class="stat-label">Prochain anniv.</div><div class="stat-val" id="age-anniv">—</div></div>
+    <div class="stat-box"><div class="stat-label">Signe astro</div><div class="stat-val" id="age-astro">—</div></div>
+    <div class="stat-box"><div class="stat-label">Génération</div><div class="stat-val" id="age-gen">—</div></div>
+  </div>
+</div>
+<div style="text-align:center;margin:28px 0"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5654096550234448" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
+<h2>❓ Questions fréquentes</h2>
+<div class="fi"><div class="fq">Comment calculer mon âge exact ? <span class="farr">▾</span></div><div class="fa">Entrez votre date de naissance et le calculateur vous donne votre âge exact en années, mois, jours et heures.</div></div>
+<div class="fi"><div class="fq">Quel est mon signe astrologique ? <span class="farr">▾</span></div><div class="fa">Le signe astrologique dépend de votre date de naissance. Notre calculateur le détermine automatiquement.</div></div>
+<h2>🔗 Outils similaires</h2>
+<div class="rg">
+<a class="rc" href="/calculateur-dates.html">📅 Calculateur de dates</a>
+<a class="rc" href="/calculateur-imc.html">💪 Calculateur IMC</a>
+<a class="rc" href="/chronometre.html">⏱️ Chronomètre</a>
+</div>
+<script>
+function calcAge(){
+var dob=new Date(document.getElementById('dob').value);
+if(isNaN(dob))return;
+var now=new Date();
+var y=now.getFullYear()-dob.getFullYear();
+var m=now.getMonth()-dob.getMonth();
+var d=now.getDate()-dob.getDate();
+if(d<0){m--;d+=new Date(now.getFullYear(),now.getMonth(),0).getDate();}
+if(m<0){y--;m+=12;}
+document.getElementById('age-val').textContent=y+' ans';
+document.getElementById('age-sub').textContent=m+' mois et '+d+' jours';
+var totalDays=Math.floor((now-dob)/86400000);
+document.getElementById('age-mois').textContent=Math.floor(totalDays/30.44).toLocaleString('fr');
+document.getElementById('age-jours').textContent=totalDays.toLocaleString('fr');
+document.getElementById('age-heures').textContent=(totalDays*24).toLocaleString('fr');
+// Next birthday
+var nextB=new Date(now.getFullYear(),dob.getMonth(),dob.getDate());
+if(nextB<now)nextB.setFullYear(now.getFullYear()+1);
+var daysToB=Math.ceil((nextB-now)/86400000);
+document.getElementById('age-anniv').textContent=daysToB+' jours';
+// Sign
+var signs=[['Capricorne',1,19],['Verseau',2,18],['Poissons',3,20],['Bélier',4,19],['Taureau',5,20],['Gémeaux',6,20],['Cancer',7,22],['Lion',8,22],['Vierge',9,22],['Balance',10,22],['Scorpion',11,21],['Sagittaire',12,21],['Capricorne',12,31]];
+var mo=dob.getMonth()+1,da=dob.getDate(),sign='';
+for(var i=0;i<signs.length;i++){if(mo<signs[i][1]||(mo===signs[i][1]&&da<=signs[i][2])){sign=signs[i][0];break;}}
+document.getElementById('age-astro').textContent=sign||'Capricorne';
+// Generation
+var by=dob.getFullYear(),gen='';
+if(by<1946)gen='Traditionnaliste';
+else if(by<1965)gen='Baby-boomer';
+else if(by<1981)gen='Gen X';
+else if(by<1997)gen='Millénial';
+else if(by<2013)gen='Gen Z';
+else gen='Gen Alpha';
+document.getElementById('age-gen').textContent=gen;
+}
+// Default: 30 years ago
+var d=new Date();d.setFullYear(d.getFullYear()-30);
+document.getElementById('dob').value=d.toISOString().split('T')[0];
+calcAge();
+</script>
+</div><footer><div>© 2025 ConvertUnité</div><div class="flinks"><a href="/">Accueil</a><a href="/contact.html">Contact</a><a href="/mentions-legales.html">Mentions légales</a></div></footer><div id="cb"><span>🍪 Nous utilisons des cookies pour améliorer votre expérience. <a href="/mentions-legales.html">En savoir plus</a></span><div style="display:flex;gap:10px"><button class="cba" onclick="acc()">Accepter</button><button class="cbr" onclick="ref()">Refuser</button></div></div><script>function acc(){localStorage.setItem("ck","y");document.getElementById("cb").classList.remove("show");}function ref(){localStorage.setItem("ck","n");document.getElementById("cb").classList.remove("show");}window.addEventListener("load",function(){if(!localStorage.getItem("ck")){setTimeout(function(){document.getElementById("cb").classList.add("show");},800);}});</script><script>document.querySelectorAll(".fq").forEach(function(q){q.addEventListener("click",function(){q.parentElement.classList.toggle("open");});});</script></body></html>

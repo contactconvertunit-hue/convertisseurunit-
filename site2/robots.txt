@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://convertisseur-unite.fr/sitemap.xml
